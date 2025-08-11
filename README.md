@@ -18,8 +18,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Tserewara/qr-code-component)
-- Live Site URL: [Add live site URL here](https://tserewara.github.io/qr-code-component/)
+- Solution URL: [link](https://github.com/Tserewara/qr-code-component)
+- Live Site URL: [link](https://tserewara.github.io/qr-code-component/)
 
 ## My process
 
@@ -31,5 +31,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Álvaro Junqueira](alvarojunqueira.com.br)
+- Website - [Álvaro Junqueira](https://alvarojunqueira.com.br)
 - Frontend Mentor - [@Tserewara](https://www.frontendmentor.io/profile/Tserewara)
