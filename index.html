@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --white: #FFFFFF;
+            --slate-300: #D5E1EF;
+            --slate-500: #68778D;
+            --slate-900: #1F314F;
+        }
+
+        body {
+            background-color: var(--slate-300);
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: var(--white);
+
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            height: 499px;
+            padding: 16px 16px 40px 16px;
+            border-radius: 20px;
+            gap: 24px;
+
+            box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                padding: 0 16px;
+                gap: 16px;
+
+                .title {
+                    font-family: 'Outfit', sans-serif;
+                    font-weight: bold;
+                    font-size: 22px;
+                    line-height: 120%;
+                    letter-spacing: 0;
+                    color: var(--slate-900);
+                }
+
+                .text {
+                    font-family: 'Outfit', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 140%;
+                    letter-spacing: 0.2px;
+                    color: var(--slate-500);
+                    text-align: center;
+                }
+
+
+            }
+
+            img {
+                border-radius: 10px;
+            }
+        }
+    </style>
+
+    <title>Frontend Mentor | QR code component</title>
+</head>
+<body>
+<main>
+    <div class="card">
+        <img src="images/image-qr-code.png" alt="qr-code"/>
+        <div class="content">
+            <p class="title">Improve your front-end skills by building projects</p>
+            <p class="text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
